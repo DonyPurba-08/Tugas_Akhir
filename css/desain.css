@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+body{
+		font-family: Arial, sans-serif;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+        justify-content: center;
+        max-width: 1300px;
+        margin-inline: auto;
+        border: 1px solid black;
+}
+
+
+main{
+		font-family: Arial, sans-serif;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+        justify-content: center;
+        max-width: 1300px;
+        margin-inline: auto;
+        border: 1px solid black;
+}
+
+header{
+	width: 1300px;
+	height: 150px;
+	background-image: url('../img/bgwalpaper.jpg');
+	background-size: cover;
+	position: fixed;
+	box-sizing: border-box;
+	top: 0;
+}
+
+header #logo img{
+	width: 90px;
+	height: 110px;
+	margin-top: 20px;
+	margin-left: 17px;
+}
+
+
+#instansi{
+	font-size: 40px;
+	color: black;	
+	font-family: Secular One;
+	/*border: 1px solid black;*/
+	margin-top: -110px;
+	margin-left: 130px;
+
+}
+
+header ul li{
+	display: inline-block;
+	font-size: 24px;
+	margin-right: 50px;
+	margin-left: 80px;
+	/* border: 1px solid black; */
+	
+
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+header a:hover{
+	color: white;
+	background-color: red;
+	padding: 10px;
+}
+
+
+#twitter{
+	width: 15px;
+	height: 15px;
+	background-image: url('../img/twitlogo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+#twitter:hover{
+	color: white;
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+#instagram{
+	width: 15px;
+	height: 16px;
+	background-image: url('../img/ig.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 11px;
+	right: 55px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+#instagram:hover{
+	color: white;
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+#facebook{
+	width: 15px;
+	height: 15px;
+	background-image: url('../img/facebook.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 11px;
+	right: 99px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+#facebook:hover{
+	color: white;
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#whatsapp{
+	width: 17px;
+	height: 17px;
+	background-image: url('../img/wa.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 10px;
+	right: 143px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+#whatsapp:hover{
+	color: white;
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.wrapper{
+	
+	width: 1300px;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.images{
+	display: flex;
+	width: 100%;
+	transition: 2s;
+	
+}
+
+.images img{
+	width: 100%;
+	margin-top: 120px;
+}
+	
+
+#slide-1:target ~ .images{
+	margin-left: 0;
+}
+
+#slide-2:target ~ .images{
+	margin-left: -100%;
+}
+
+#slide-3:target ~ .images{
+	margin-left: -200%;
+}
+
+#slide-4:target ~ .images{
+	margin-left: -300%;
+}
+
+.navigasi a{
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	background-color: lightskyblue;
+	font-size: 0px;
+	margin: 4px;
+	border-radius: 50px;
+	transition: 1s;
+}
+
+.navigasi a:hover{
+	background-color: red;
+}
+
+.navigasi{
+	text-align: center;
+	margin-top: -50px;
+	
+}
+
+#gedung{
+	font-family: arial;
+	text-align: center;
+	font-size: 16px;
+	color: darkblue;
+	
+}
+
+#judul{
+	font-family: arial;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+
+}
+
+#penulis{
+	font-family: arial;
+	font-size: 15px;
+	margin: 15px;
+	margin-top: -1	0px;
+	margin-bottom: 25px;
+	font-weight: bold;
+
+}
+
+article{
+
+	width: 1300px;
+	display: flex;
+	flex-flow: column;
+	/*border: 1px solid black; */
+	margin-top: 10px;
+	
+}
+
+article p{
+	font-family: arial;
+	font-size: 19px;
+	text-align: justify;
+	text-indent: 2em;
+	margin: 15px;
+	box-sizing: border-box;
+}
+
+aside{
+	width: 1200px;
+	display: flex;
+	flex-flow: column;
+	margin-top: 40px;
+	margin-left: 40px;
+
+}
+
+aside h2{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+aside img{
+	width: 200px;
+	height: 240px;
+	border-radius: 10px;
+	margin-left: 480px;
+}
+
+aside table{
+	
+	font-family: arial;
+	font-size: 16px;
+	text-align: left;
+	font-weight: bold;
+	text-align: left;
+
+	
+}
+
+footer{
+	background-color: grey;
+	padding: 4px;
+	margin-top: 40px;
+	width: 1300px;
+}
+
+#copy{
+	font-family: arial;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	
+}
+
+@media screen and (max-width:700px){
+
+	body{
+		width: 90%;
+	}
+
+	main{
+		width: 70%;
+	}
+	header{
+		width: 70%;
+	}
+	article{
+		width: 70%;
+		margin: auto;
+	}
+	aside{
+		width: 70%;
+		margin: auto;
+	}
+
+	#instansi{
+		font-size: 15px;
+		color: black;	
+		font-family: Secular One;
+	}
+	footer{
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width:800px){
+
+	body{
+		width: 90%;
+	}
+
+	main{
+		width: 80%;
+	}
+	header{
+		width: 80%;
+	}
+	article{
+		width: 80%;
+		margin: auto;
+	}
+	aside{
+		width: 80%;
+		margin: auto;
+	}
+	#instansi{
+		font-size: 15px;
+		color: black;	
+		font-family: Secular One;
+	}
+	footer{
+		width: 100%;
+	}
+
+
+
+}
+
+@media screen and (max-width:900px){
+
+	body{
+		width: 90%;
+	}
+
+	main{
+		width: 100%;
+	}
+	header{
+		width: 90%;
+	}
+	article{
+		width: 100%;
+		margin: auto;
+	}
+	aside{
+		width: 100%;
+		margin: auto;
+	}
+	aside img{
+		width: 120px;
+		height: 160px;
+		border-radius: 10px;
+		margin-left: 250px;
+		}
+
+	#instansi{
+		font-size: 21px;
+		color: black;	
+		font-family: Secular One;
+	}
+	footer{
+		width: 100%;
+	}
+	header ul li{
+		display: inline-block;
+		font-size: 18px;
+		margin-right: -30px;
+		margin-left: 80px;
+		margin-top: 10px;
+	/* border: 1px solid black; */
+}
+
+}
+
+
+@media screen and (max-width:600px){
+
+	body{
+		width: 90%;
+	}
+
+	main{
+		width: 60%;
+	}
+	header{
+		width: 60%;
+	}
+	article{
+		width: 60%;
+		margin: auto;
+	}
+	aside{
+		width: 60%;
+		margin: auto;
+	}
+	#instansi{
+		font-size: 15px;
+		color: black;	
+		font-family: Secular One;
+	}
+	footer{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width:500px){
+
+	body{
+		width: 90%;
+	}
+
+	main{
+		width: 50%;
+	}
+	header{
+		width: 50%;
+	}
+	article{
+		width: 50%;
+		margin: auto;
+	}
+	aside{
+		width: 50%;
+		margin: auto;
+	}
+	#instansi{
+		font-size: 20px;
+		color: black;	
+		font-family: Secular One;
+	}
+	footer{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width:576px){
+	body{
+		width: 90%;
+	}
+
+	main{
+		width: 100%;
+	}
+
+	header{
+		width: 90%;
+	}
+
+	article{
+		width: 100%;
+		margin: auto;
+	}
+
+	aside{
+		width: 50%;
+		display: flex;
+		margin-top: 30px;
+	}
+
+	aside h2{
+		font-family: arial;
+		font-size: 17px;
+		font-weight: bold;
+		
+	}
+
+	aside img{
+		width: 120px;
+		height: 160px;
+		border-radius: 10px;
+		margin-left: 10px;
+		
+	}
+
+	aside table{
+		font-family: arial;
+		font-size: 15px;
+		text-align: left;
+		font-weight: bold;
+		text-align: left;
+		margin-top: 10px;
+		margin-left: -54px;
+	}
+
+	#instansi{
+		font-size: 0;
+		color: black;	
+		font-family: Secular One;
+	
+	}
+	footer{
+		width: 100%;
+	}
+
+	header ul li{
+		display: inline-block;
+		font-size: 18px;
+		margin-right: -40px;
+		margin-left: 90px;
+		margin-top: -130px;
+		width: 100%;
+	/* border: 1px solid black; */
+}
+
+}
